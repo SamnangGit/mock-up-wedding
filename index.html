@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bath & Pich's Wedding - September 15, 2024">
+    <title>Bath & Pich - Wedding Celebration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="nav-content">
+                <a href="#home" class="nav-logo">B & P</a>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#rsvp" class="rsvp-btn">RSVP</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero parallax">
+            <div class="hero-content">
+                <h1>Bath & Pich</h1>
+                <p class="date">December 29, 2024</p>
+                <div id="countdown" class="countdown"></div>
+            </div>
+        </section>
+
+        <section id="story" class="section">
+            <div class="container">
+                <h2>Our Story</h2>
+                <div class="story-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="details" class="section">
+            <div class="container">
+                <h2>Wedding Details</h2>
+                <div class="details-grid">
+                    <div class="detail-card ceremony">
+                        <i class="fas fa-church"></i>
+                        <h3>Ceremony</h3>
+                        <p>2:00 PM</p>
+                        <p>St. Mary's Building</p>
+                        <p>123 Wedding Lane</p>
+                    </div>
+                    <div class="detail-card reception">
+                        <i class="fas fa-glass-cheers"></i>
+                        <h3>Reception</h3>
+                        <p>5:00 PM</p>
+                        <p>Grand Ballroom</p>
+                        <p>456 Celebration Ave</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div class="mock-map">
+                        <div class="mock-roads">
+                            <div class="road-h"></div>
+                            <div class="road-v"></div>
+                        </div>
+                        <div class="location-marker">
+                            <div class="marker-dot"></div>
+                        </div>
+                        <div class="location-info">
+                            <h3 style="margin: 0 0 5px 0; color: #333;">Wedding Ceremony</h3>
+                            <p style="margin: 0; color: #666;">123 Wedding Avenue, Phnom Penh</p>
+                        </div>
+                        <div class="map-controls">
+                            <button class="control-button">+</button>
+                            <button class="control-button">−</button>
+                        </div>
+                    </div>
+                </div>        </section>
+
+        <section id="timeline" class="section">
+            <div class="container">
+                <h2>Wedding Timeline</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="time">2:00 PM</div>
+                        <div class="event">Ceremony Begins</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">3:00 PM</div>
+                        <div class="event">Photos</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">5:00 PM</div>
+                        <div class="event">Reception & Cocktails</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">6:30 PM</div>
+                        <div class="event">Dinner Service</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="time">8:00 PM</div>
+                        <div class="event">First Dance</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2>Photo Gallery</h2>
+                <div class="gallery-grid"></div>
+            </div>
+        </section>
+
+        <section id="rsvp" class="section">
+            <div class="container">
+                <h2>RSVP</h2>
+                <form id="rsvp-form" class="rsvp-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="attending">Will you be attending?</label>
+                        <select id="attending" name="attending" required>
+                            <option value="">Please select</option>
+                            <option value="yes">Joyfully Accept</option>
+                            <option value="no">Regretfully Decline</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="meal-selection">
+                        <label for="meal">Meal Preference</label>
+                        <select id="meal" name="meal">
+                            <option value="">Please select</option>
+                            <option value="chicken">Chicken</option>
+                            <option value="fish">Fish</option>
+                            <option value="vegetarian">Vegetarian</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Special Notes</label>
+                        <textarea id="notes" name="notes"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send RSVP</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bath & Pich</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
+</body>
+</html>
