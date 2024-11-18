@@ -78,7 +78,13 @@ const galleryImages = [
     'placeholder-3.jpg',
     'placeholder-4.jpg',
     'placeholder-5.jpg',
-    'placeholder-6.jpg'
+    'placeholder-6.jpg',
+    'placeholder-7.jpg',
+    'placeholder-8.jpg',
+    'placeholder-9.jpg',
+    'placeholder-10.jpg',
+    'placeholder-11.jpg',
+    'placeholder-12.jpg'
 ];
 
 const galleryGrid = document.querySelector('.gallery-grid');

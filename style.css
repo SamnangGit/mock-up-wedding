@@ -108,7 +108,7 @@ h2 {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url('https://img.freepik.com/premium-photo/happy-wedding-couple-staying-kissing-beautiful-landscape-with-mountains-sunset_641503-142565.jpg') no-repeat center center;
+                url('./images/main_background.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
