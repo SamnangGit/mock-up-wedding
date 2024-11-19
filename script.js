@@ -92,7 +92,7 @@ galleryImages.forEach((image, index) => {
     galleryGrid.innerHTML += `
         <div class="gallery-item">
             <img 
-                data-src="./images/${index + 1}.jpg"
+                data-src="./images/${index + 1}.webp"
                 class="lazyload"
                 alt="Gallery image ${index + 1}"
             >
